@@ -2,7 +2,7 @@ package homework1;
 
 import java.util.Scanner;
 
-public class hard11 { //Перевод в римские цифрыedrf
+public class hard11 { //Перевод в римские цифры
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.println("Ведите натуральное число менее 4000 (целое, положительное)");

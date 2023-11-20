@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class task6 { //нахождение индексов дубликатов в отсортированном массиве
     public static void main(String[] args) {
-        int[] arrayNum = {0, 2, 1, 1, 5, 1};
+        int[] arrayNum = {1, 2, 1, 1, 5, 1};
         int[] sortArray = Arrays.copyOf(arrayNum, arrayNum.length);
         Arrays.sort(sortArray);
         int count = 1;

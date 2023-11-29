@@ -7,7 +7,7 @@ public class TestTask1 {
     @Test
     public void test1() {
 
-        int[] array = new int[]{-2, 5, 1, -9, 0, 2, 5, 1, 8, 10};
+        int[] array = new int[] {-2, 5, 1, -9, 0, 2, 5, 1, 8, 10};
         int result = Task1.minElementIndex(array);
         int expected = 3;
         Assert.assertEquals(expected, result);

@@ -7,7 +7,7 @@ public class Task3 {
         System.out.println(linearSearch(array, num));
     }
 
-    static int linearSearch(int[] array, int num) { //линейный поиск
+    static int linearSearch(int[] array, int num) {  //линейный поиск
         int index = -1;
         for (int i = 0; i < array.length; i++) {
             if (num == array[i]) {

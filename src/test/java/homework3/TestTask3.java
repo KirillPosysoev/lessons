@@ -17,7 +17,7 @@ public class TestTask3 {
     @Test
     public void test2() {
 
-        int[] array = new int[]{-2, 5, 1, -9, 0, 2, 5, 1, 8, 10};
+        int[] array = new int[] {-2, 5, 1, -9, 0, 2, 5, 1, 8, 10};
         int num = 7;
         int result = Task3.linearSearch(array, num);
         int expected = -1;

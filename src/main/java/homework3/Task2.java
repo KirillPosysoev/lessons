@@ -8,7 +8,7 @@ public class Task2 {
         System.out.println(Arrays.toString(insertSort(array)));
     }
 
-    static int[] insertSort(int[] array) { //сортировка массива по убыванию методом вставки
+    static int[] insertSort(int[] array) {  //сортировка массива по убыванию методом вставки
         int insertElem;
         for (int i = 1; i < array.length; i++) {
             int j = i;

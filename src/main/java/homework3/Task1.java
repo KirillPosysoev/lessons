@@ -20,7 +20,7 @@ public class Task1 {
         }
         return array;
     }
-    static int minElementIndex(int[] array) { //минимальный элемент
+    static int minElementIndex(int[] array) {  //минимальный элемент
         int minElementIndex = 0;
         for (int i = 1; i < array.length; i++) {
             if (array[minElementIndex] > array[i])

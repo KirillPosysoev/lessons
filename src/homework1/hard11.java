@@ -10,7 +10,7 @@ public class hard11 { //Перевод в римские цифры
         if (console.hasNextLong()) {
             int num = console.nextInt();
             if (num <= 0 || num >= 4000)
-                System.out.println("Ваше число не соответствует условиям");
+                System.out.println("Увы, ваше число не соответствует условиям");
 
             else {
                 String[] rimName = new String[]{"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
